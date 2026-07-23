@@ -427,3 +427,34 @@ font-size:22px;
 line-height:1.7;
 
 }
+nav{
+
+display:flex;
+
+align-items:center;
+
+gap:25px;
+
+}
+
+.menu-doar{
+
+background:#16a34a;
+
+padding:12px 24px;
+
+border-radius:30px;
+
+color:white !important;
+
+font-weight:bold;
+
+box-shadow:0 10px 25px rgba(22,163,74,.25);
+
+}
+
+.menu-doar:hover{
+
+background:#22c55e;
+
+}
