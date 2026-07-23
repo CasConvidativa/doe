@@ -60,19 +60,23 @@ margin-bottom:30px;
 }
 
 .botao{
-display:inline-block;
-background:#16a34a;
-color:white;
-padding:16px 34px;
-border-radius:10px;
+display:inline-flex;
+align-items:center;
+justify-content:center;
+padding:18px 40px;
+background:linear-gradient(135deg,#16a34a,#22c55e);
+color:#fff;
+font-size:18px;
+font-weight:700;
 text-decoration:none;
-font-weight:bold;
+border-radius:50px;
+box-shadow:0 12px 30px rgba(22,163,74,.30);
 transition:.3s;
 }
 
 .botao:hover{
-transform:translateY(-4px);
-background:#13863d;
+transform:translateY(-5px) scale(1.03);
+box-shadow:0 20px 40px rgba(22,163,74,.40);
 }
 
 .hero-img{
@@ -367,5 +371,24 @@ margin-bottom:20px;
 margin-bottom:15px;
 
 color:#005baa;
+
+}
+.card,
+.card-missao,
+.card-ajuda,
+.beneficio{
+
+border-top:5px solid #16a34a;
+
+}
+
+.card:hover,
+.card-missao:hover,
+.card-ajuda:hover,
+.beneficio:hover{
+
+transform:translateY(-10px);
+
+box-shadow:0 20px 45px rgba(0,0,0,.12);
 
 }
