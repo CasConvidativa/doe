@@ -39,7 +39,8 @@ color:#FFD54F;
 display:flex;
 align-items:center;
 justify-content:space-between;
-padding:80px 8%;
+min-height:90vh;
+padding:60px 8%;
 background:white;
 gap:50px;
 }
@@ -49,13 +50,15 @@ flex:1;
 }
 
 .hero-text h1{
-font-size:48px;
+font-size:64px;
+line-height:1.1;
 margin-bottom:20px;
 color:#005baa;
 }
 
 .hero-text p{
-font-size:20px;
+font-size:24px;
+max-width:650px;
 margin-bottom:30px;
 }
 
