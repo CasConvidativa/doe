@@ -220,3 +220,32 @@ font-size:55px;
 margin-bottom:20px;
 
 }
+.ajuda{
+background:#ffffff;
+}
+
+.cards-ajuda{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:30px;
+margin-top:50px;
+}
+
+.card-ajuda{
+background:#f8fafc;
+padding:35px;
+border-radius:20px;
+text-align:center;
+transition:.3s;
+border:1px solid #e5e7eb;
+}
+
+.card-ajuda:hover{
+transform:translateY(-8px);
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+}
+
+.emoji{
+font-size:55px;
+margin-bottom:20px;
+}
