@@ -249,3 +249,42 @@ box-shadow:0 15px 35px rgba(0,0,0,.08);
 font-size:55px;
 margin-bottom:20px;
 }
+.impacto-faixa{
+
+background:linear-gradient(135deg,#005baa,#0077d9);
+
+padding:80px 20px;
+
+text-align:center;
+
+color:white;
+
+}
+
+.impacto-conteudo{
+
+max-width:900px;
+
+margin:auto;
+
+}
+
+.impacto-faixa h2{
+
+font-size:42px;
+
+margin-bottom:20px;
+
+color:white;
+
+}
+
+.impacto-faixa p{
+
+font-size:22px;
+
+opacity:.95;
+
+line-height:1.8;
+
+}
